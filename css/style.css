@@ -163,6 +163,12 @@ a{
     display: flex;
     position: relative;
 }
+@media (min-width: 768px) {
+    .header .cont .links{
+        display: none;
+    }
+
+}
 .header .cont .links ul > li{
     padding: 0 15px;
     font-size: 18px;
